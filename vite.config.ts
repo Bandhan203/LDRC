@@ -62,6 +62,7 @@ function figmaAssetPlugin() {
 }
 
 export default defineConfig({
+  base: '/LDRC/',
   plugins: [figmaAssetPlugin(), react(), tailwindcss()],
   root: '.',
 });
